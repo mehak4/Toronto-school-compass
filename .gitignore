@@ -1,0 +1,26 @@
+# Credentials: publish only the configuration template.
+.env
+.env.*
+!.env.example
+
+# Local Python environments and caches.
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Rebuild the vector index locally; do not publish it.
+.chroma/
+.index.json
+
+# Scratch runs at the repository root. Reviewed docs/evaluation artifacts stay tracked.
+/evaluation-results.json
+/evaluation-*.json
+
+# Local operating-system and editor files.
+.DS_Store
+.idea/
+.vscode/
+*.log

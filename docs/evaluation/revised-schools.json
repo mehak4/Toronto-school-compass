@@ -1,0 +1,49 @@
+[
+  {
+    "id": "joyce",
+    "name": "Joyce Public School",
+    "address": "26 Joyce Parkway, North York",
+    "source_url": "https://schoolweb.tdsb.on.ca/joyce",
+    "childcare": {
+      "name": "Rejoyce Caledon Community Child Care",
+      "phone": "416-789-1485",
+      "source_url": "https://www.toronto.ca/data/children/dmc/webreg/gcreg1578.html",
+      "checked_at": "2026-09-12",
+      "source_date_note": "City page updated 2026-09-12",
+      "program_note": "Kindergarten and school-age programs listed by the City.",
+      "hours_note": "School-hosted page lists centre hours Monday\u2013Friday 7am\u20136pm; summer 7am\u20135:30pm. Individual session hours need confirmation; page is undated.",
+      "vacancy_note": "City listing updated 2026-09-12 reports no kindergarten or school-age vacancies. Contact provider for current availability",
+      "fee": {
+        "amount": null,
+        "unit": null,
+        "currency": "CAD",
+        "effective_date": null,
+        "source_url": null
+      },
+      "hours_source_url": "https://schoolweb.tdsb.on.ca/joyce/Rejoyce-Caledon-Childcare"
+    }
+  },
+  {
+    "id": "glenpark",
+    "name": "Glen Park Public School",
+    "address": "101 Englemount Avenue, North York",
+    "source_url": "https://schoolweb.tdsb.on.ca/glenpark",
+    "childcare": {
+      "name": "Dalemount Child Care",
+      "phone": "416-781-9493",
+      "source_url": "https://www.toronto.ca/data/children/dmc/webreg/gcreg1536.html",
+      "checked_at": "2026-09-12",
+      "source_date_note": "City page updated 2026-09-09",
+      "program_note": "Kindergarten and school-age programs listed by the City.",
+      "hours_note": "Not published in checked City listing \u2014 contact provider",
+      "vacancy_note": "City listing updated 2026-09-09 reports no kindergarten or school-age vacancies. Contact provider for current availability",
+      "fee": {
+        "amount": null,
+        "unit": null,
+        "currency": "CAD",
+        "effective_date": null,
+        "source_url": null
+      }
+    }
+  }
+]

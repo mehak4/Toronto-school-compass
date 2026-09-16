@@ -1,0 +1,18 @@
+{
+  "before": {
+    "retrieved": 46,
+    "retrieved_relevant": 13,
+    "selected": 6,
+    "selected_relevant": 6,
+    "rag_cases": 7,
+    "fallbacks": 3
+  },
+  "after": {
+    "retrieved": 34,
+    "retrieved_relevant": 13,
+    "selected": 6,
+    "selected_relevant": 6,
+    "rag_cases": 7,
+    "fallbacks": 3
+  }
+}

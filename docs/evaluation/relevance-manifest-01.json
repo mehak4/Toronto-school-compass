@@ -1,0 +1,19 @@
+{
+  "recorded_at_utc": "2026-09-13T01:03:25.938433+00:00",
+  "baseline": "grounding-raw-01.json",
+  "review_type": "AI-assisted",
+  "runs_overlapped": true,
+  "code_note": "Final hours-topic guard added during live runs; does not change any evaluated question filter; tested offline.",
+  "sha256": {
+    "graph.py": "f1fdd567634a265053b34dcdbb2015992467997aa63d2a2169ccbedeab1c068a",
+    "provider.py": "1c933579fcf8534c2215b6d79b84af9e4455e7be573ab32c0be50298c27da60f",
+    "data/corpus.json": "cf65b4eebbb636449e1c6066b2d23321d7fd59f289565043a3dd3108bd515c04",
+    "tests/test_relevance.py": "c6d9f3c566aa91f3a3be4abe9a42d8cabf1c027947d02d2e4a9733d490511d27",
+    "docs/evaluation/relevance-paraphrase-reviewed-01.json": "70421bdcb76539cc670ead2dd327d1de1f82987f3cf0cef34b374355fa84b1f5",
+    "docs/evaluation/relevance-raw-01.json": "f1d3285bc513606374a829ea3367895c1331385da5a806396017aa8773a614c6",
+    "docs/evaluation/relevance-before-reviewed-01.json": "a90af7e7c3ec8e54567fdbb342c704f4c59375cb73b9591438f4ffd66568a940",
+    "docs/evaluation/relevance-after-reviewed-01.json": "27a00df7c0b18feab4c309004ec4ae50e7affd24b423f091333b8cde5e836a1e",
+    "docs/evaluation/relevance-summary-01.json": "41cfdc6347fb48ec96dddf42e662852d8ba5abc2fdbf3e79ac36bea871273f84",
+    "docs/evaluation/relevance-paraphrase-raw-01.json": "8e478a48f31f5e5167213ea91ac19155f6721ba0243e42297fe14046c114177c"
+  }
+}

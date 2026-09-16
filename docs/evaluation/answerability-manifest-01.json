@@ -1,0 +1,15 @@
+{
+  "recorded_at_utc": "2026-09-13T01:12:08.550045+00:00",
+  "chat_model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "embedding_model": "Qwen/Qwen3-Embedding-8B",
+  "temperature": 0,
+  "sequential_runs": true,
+  "sha256": {
+    "graph.py": "7e55515e10baa7333e53429364adfecfb89c74631d2f4d6b42ceb87cda1ea4c3",
+    "provider.py": "1d540c31db0d4d5fdf62e70e789dd59a1d91782c3341020a5f6794d065e0e007",
+    "tests/test_grounding.py": "05ff988447cf627159e187f3299732d0e6dd3701cc05dcffc790daa50484806e",
+    "data/corpus.json": "cf65b4eebbb636449e1c6066b2d23321d7fd59f289565043a3dd3108bd515c04",
+    "docs/evaluation/answerability-paraphrase-raw-01.json": "60257b495d180f2cac74f4f66739773be81bbab7bfb3cb59f62f6c3129a3b228",
+    "docs/evaluation/answerability-raw-01.json": "01bcc1c9bad1ce16bd6a909d593062e71ccdfb0925147525cf3909d953738c95"
+  }
+}

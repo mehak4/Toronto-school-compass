@@ -1,0 +1,39 @@
+{
+  "recorded_at_utc": "2026-09-13T00:45:50.397722+00:00",
+  "python": "3.12.14",
+  "embedding_model": "Qwen/Qwen3-Embedding-8B",
+  "chat_model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "temperature": 0,
+  "chunk_size_characters": 1800,
+  "overlap_characters": 200,
+  "retrieval": "dense, up to 3 chunks per selected school plus 3 board chunks; topic filtering",
+  "versions": {
+    "streamlit": "1.63.0",
+    "langgraph": "1.2.11",
+    "langchain-text-splitters": "1.1.2",
+    "chromadb": "1.5.9"
+  },
+  "sha256": {
+    "ingest.py": "8792094a882ff1334f0dc29c2b05035ba5687e36878f915a8e45a6910fbe50c8",
+    "address_lookup.py": "4ede5e3f3620da412771b161871bfea9af45d9cce871549a66a723a8a430d8f7",
+    "provider.py": "73083f17c25d75e581395dc7541f712017b5496cff3e63308239f7e04af78352",
+    "graph.py": "341e44dbcae3dfaf39350a87c19492eab3d42d31c951dc8aef96dfb24daef0c1",
+    "core.py": "4b2198ccd123144ef3510107599ee5dc5839cb7c8f7f42ac827dfe1fb42a1e7d",
+    "app.py": "f729eca2595b668b9f822a58f95f2caf613a6c998db90d4ebce30088ca8cfd97",
+    "evaluate.py": "31287a77218160bc79ce624c76678b141866b0532c02f9d813ca25cf4a4f0b33",
+    "fraser.py": "e61e69ac04e59ed0c7c986b145cb8632ff1e760f81b0621ab3184b497a3d96b5",
+    "profiles.py": "315cc6a452c3b0ada02e22a5823182296bd0f38d78ba0b96f4a7a6417aed6c05",
+    "data/fraser_catalog.json": "a7ea1ee01955184727a0dad3936c611a58acc53dd9f80ce3297a758df287975f",
+    "data/corpus.json": "cf65b4eebbb636449e1c6066b2d23321d7fd59f289565043a3dd3108bd515c04",
+    "data/school_guidance.json": "4b83ac5018e6cb52a2e82ed1a6dd05d7cf93cb8cf73a49c7bc6400bb385b5cde",
+    "data/submission_evaluation_cases.json": "14ea7b4457746b33279857582d787d9cd375e95b6eee8c0d17b063a58ac0445f",
+    "data/schools.json": "57761cda631f3fc3859ff4ca3fdc56fa2c91c10676b38670b981ac5f280e02aa",
+    "data/evaluation_cases.json": "e0e675bf8819990eda57e7a24079a5c0c7f290ec058c172489ddab7c54057035",
+    "data/school_evaluation_cases.json": "708f695d6221d050d51c2734e39ecc037597afc66c720b455dd1d073d2ede428",
+    "data/fraser_ratings.json": "3f870375921432db89cfbd467e49e891352fa8b4d85ca4ec4e2fbadf8926a9fc",
+    "requirements.txt": "fc6d9be17ee881656dfbaf0f568cd8564ec3f40a72ffe577633357d44be1bb85",
+    "scripts/import_fraser.py": "ec2843fe2493e3490000e0497f50fb1f02fc95b73fec22648a17fa4b129274a3"
+  },
+  "raw_sha256": "178d68fa6c3016808318e4d5e8066ba67b5f8b19839a81323ac408c5a53b239a",
+  "limitations": "One run; no new live address-form checks or source freshness verification. Human claim-level adjudication pending."
+}

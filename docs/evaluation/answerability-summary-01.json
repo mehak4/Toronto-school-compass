@@ -1,0 +1,19 @@
+{
+  "cases": 15,
+  "route_passes": 15,
+  "faithfulness": {
+    "reviewed_cases": 0,
+    "percent": null
+  },
+  "retrieval_precision": {
+    "reviewed_cases": 0,
+    "percent": null
+  },
+  "citation_support": {
+    "reviewed_cases": 0,
+    "percent": null
+  },
+  "successful_under_10_seconds_percent": 100.0,
+  "timed_cases": 15,
+  "errors": 0
+}

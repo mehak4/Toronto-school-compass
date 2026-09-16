@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-09-12",
+  "curriculum": {
+    "summary": "Ontario curriculum sets expectations for what students learn. Elementary subjects include language, mathematics, science and technology, and social studies. Consult the provincial guidance for grade-specific expectations.",
+    "source_url": "https://www.ontario.ca/page/student-assessment-evaluations-and-report-cards",
+    "kindergarten_summary": "TDSB describes Kindergarten as inquiry and intentional play-based learning, planned by teachers and early childhood educators.",
+    "kindergarten_source_url": "https://www.tdsb.on.ca/EarlyYears/Kindergarten"
+  },
+  "registration": {
+    "source_url": "https://www.tdsb.on.ca/EarlyYears/Kindergarten",
+    "english_note": "English Kindergarten registration begins in January. The board directs families to their local school for exact dates and times; no school-specific deadline is verified here.",
+    "regular_note": "For registration or a transfer during the selected school year, contact the school office. No school-specific closing date is verified in this directory.",
+    "french_entry_year": "2027\u201328",
+    "french_opens": "2026-11-02",
+    "french_closes": "2026-11-27",
+    "french_note": "Early French Immersion is a separate central application for Junior Kindergarten entry in September 2027. This window does not establish placement at either pilot school."
+  },
+  "ratings": {
+    "summary": "EQAO reports assessment results; these are different from an overall school rating. Use the school name and address to find the correct school and review the assessment year and grade.",
+    "eqao_url": "https://www.eqao.com/the-assessments/find-my-school/",
+    "fraser_url": "https://www.fraserinstitute.org/studies/report-card-ontarios-elementary-schools-2025",
+    "fraser_note": "The Fraser Institute publishes a third-party rating based on academic indicators derived from provincial tests. It is not a TDSB rating or a measure of every aspect of a school.",
+    "score_note": "School-specific numeric rating not verified. No score is displayed."
+  }
+}

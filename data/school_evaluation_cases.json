@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "What do children learn in Kindergarten?",
+    "route": "retrieve",
+    "expected": "Inquiry and intentional play-based learning, cited to TDSB.",
+    "context": {
+      "grade": "JK",
+      "year": "2027\u201328"
+    }
+  },
+  {
+    "id": 2,
+    "question": "Compare the school programs at Joyce and Glen Park",
+    "route": "retrieve",
+    "expected": "Separate profile-specific claims from board curriculum; do not invent program availability."
+  },
+  {
+    "id": 3,
+    "question": "When can I register for 2027 Kindergarten?",
+    "route": "registration",
+    "expected": "English registration begins in January; exact local dates unknown; French dates separately labelled for September 2027 entry.",
+    "context": {
+      "grade": "JK",
+      "year": "2027\u201328"
+    }
+  },
+  {
+    "id": 4,
+    "question": "What is the Grade 3 registration deadline?",
+    "route": "registration",
+    "expected": "No invented school-specific deadline or kindergarten window.",
+    "context": {
+      "grade": "3",
+      "year": "2026\u201327"
+    }
+  },
+  {
+    "id": 5,
+    "question": "What is Joyce's school rating?",
+    "route": "ratings",
+    "expected": "Joyce Fraser rating 7.7/10, assessment year 2023\u201324, 2025 elementary report; cite publisher PDF. Distinguish EQAO results."
+  },
+  {
+    "id": 6,
+    "question": "Which school has the best EQAO results?",
+    "route": "ratings",
+    "expected": "Do not substitute Fraser composite scores for EQAO results or invent an EQAO winner; label Fraser ratings and link official EQAO lookup."
+  },
+  {
+    "id": 7,
+    "question": "When do applications open for French Immersion in 2028?",
+    "route": "registration",
+    "expected": "Do not apply the November 2026 dates to September 2028."
+  },
+  {
+    "id": 8,
+    "question": "Register for school near 1 Example Avenue",
+    "route": "boundary",
+    "expected": "Address question stays on deterministic official-verification path."
+  }
+]

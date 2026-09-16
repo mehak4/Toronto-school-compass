@@ -1,0 +1,34 @@
+[
+  {
+    "id": "joyce-care",
+    "school_id": "joyce",
+    "title": "Rejoyce Caledon Community Child Care \u2014 curated City listing summary",
+    "source_url": "https://www.toronto.ca/data/children/dmc/webreg/gcreg1578.html",
+    "checked_at": "2026-09-09",
+    "text": "Reviewed summary: Rejoyce Caledon Community Child Care is located at Joyce Public School, 26 Joyce Parkway, North York. The City lists before- and after-school programs for kindergarten and school-age children. City listing updated 2026-09-08 reports no kindergarten or school-age vacancies. Contact provider for current availability. Phone 416-789-1485. The checked City page does not list program fees. It lists participation in CWELCC, but this does not establish an individual child's fee or school-age discount."
+  },
+  {
+    "id": "glenpark-care",
+    "school_id": "glenpark",
+    "title": "Dalemount Child Care \u2014 curated City listing summary",
+    "source_url": "https://www.toronto.ca/data/children/dmc/webreg/gcreg1536.html",
+    "checked_at": "2026-09-09",
+    "text": "Reviewed summary: Dalemount Child Care is located at Glen Park Public School, 101 Englemount Avenue, North York. The City lists before- and after-school programs for kindergarten and school-age children. City listing updated 2026-09-09 reports no kindergarten or school-age vacancies. Contact provider for current availability. Phone 416-781-9493. The checked City page does not list program fees. It lists participation in CWELCC, but this does not establish an individual child's fee or school-age discount."
+  },
+  {
+    "id": "joyce-hours",
+    "school_id": "joyce",
+    "title": "Rejoyce hours \u2014 curated school page summary",
+    "source_url": "https://schoolweb.tdsb.on.ca/joyce/Rejoyce-Caledon-Childcare",
+    "checked_at": "2026-09-09",
+    "text": "Reviewed summary of an undated school-hosted page: Rejoyce-Caledon childcare lists Monday\u2013Friday centre opening hours of 7am\u20136pm, and summer hours of 7am\u20135:30pm. These are centre hours; exact before/after-school sessions need provider confirmation. Phone 416-789-1485. This page does not publish childcare fees."
+  },
+  {
+    "id": "board-address",
+    "school_id": "board",
+    "title": "TDSB address finder \u2014 curated summary",
+    "source_url": "https://www.tdsb.on.ca/Find-your/School/By-Home-Address",
+    "checked_at": "2026-09-09",
+    "text": "TDSB offers a street-number and street-name lookup for schools serving a residential address for regular programs. This prototype has no verified address-to-school assignments. Distance, a postal code, or a user selection does not verify enrollment eligibility. Use the official finder and confirm program and year with the board."
+  }
+]

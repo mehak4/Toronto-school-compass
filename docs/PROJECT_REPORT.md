@@ -64,7 +64,7 @@ The complete model instructions are in `provider.py`, in `generate()` and `verif
 
 The user payload contains the question, selected grade/year when present, and numbered evidence with titles and check dates. `graph.grounded_excerpts()` rejects malformed selections and extra fields. Whole excerpts preserve school-specific context, dates and caveats. This is extractive answer generation rather than conversational paraphrasing; selection relevance and source accuracy are still limitations.
 
-AI coding assistance helped implement the app, investigate failed answers, add the extraction constraint, test it and draft documentation. Independent human validation remains pending.
+
 
 ## Iterations and learnings
 

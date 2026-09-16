@@ -14,7 +14,7 @@ This is a **bring-your-own use case on Track 2**, closest to the policy Q&A exam
 | Working Q&A interface | Implemented | Streamlit app; 55 automated tests pass |
 | Evaluation with edge cases and failure analysis | Current run documented | `EVALUATION.md` and `evaluation/ANSWERABILITY_FINDINGS.md`; independent claim-level review pending |
 | Project documentation: overview, data, prompts, iterations, learnings | Local draft ready | `PROJECT_REPORT.md`; copy final reviewed text into a Google Doc |
-| Video at most 5 minutes: live result and use of AI coding tools | Pending | Follow `DEMO.md`; record and obtain shareable link |
+| Video at most 5 minutes: live result and use of AI coding tools | Pending | Record a live walkthrough and obtain a shareable link |
 | Project assets on GitHub | Pending | Source files ready locally; repository URL still needed |
 | Submit documentation, video and assets links | Pending | User reviews and submits final links using the assignment form |
 
@@ -26,7 +26,7 @@ Optional expansion to 10–15 reviewed profiles, a larger curriculum corpus, hyb
 
 1. Walk through the app using a public address, a comparison, Fraser scores, a supported learning question and the unsupported daily-coding question. This manual walkthrough remains pending.
 2. Review the [project report](PROJECT_REPORT.md) and [evaluation overview](EVALUATION.md), then copy the final approved content into the required Google Doc.
-3. Record the [demo](DEMO.md), five minutes or less.
+3. Record the demo, five minutes or less, explaining the app, the live result and your use of AI coding tools.
 4. Publish reviewed code and non-sensitive assets to GitHub; exclude `.env`, virtual environments, caches and private inputs.
 5. Check access to the document, video and repository links, then submit them through the assignment form.
 

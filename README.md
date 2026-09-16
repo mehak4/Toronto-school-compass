@@ -42,7 +42,7 @@ The tested configuration uses Nebius `Qwen/Qwen3-Embedding-8B` for embeddings an
 
 As of September 12, 2026, **55 automated tests pass**. The latest sequential live runs covered 15 main questions and five additional phrasings with correct routing, zero request errors and every response below ten seconds. The coding-lessons question now abstains while broad Kindergarten learning remains answerable. These are small development-time runs, not guarantees or independently measured faithfulness scores.
 
-Start with the [evaluation overview](docs/EVALUATION.md), [project report](docs/PROJECT_REPORT.md), [assignment checklist](docs/SUBMISSION_CHECKLIST.md) and [demo script](docs/DEMO.md). The report is ready for user review and copying into the required Google Doc. Recording, GitHub publication and submission remain pending.
+Start with the [evaluation overview](docs/EVALUATION.md), [project report](docs/PROJECT_REPORT.md) and [assignment checklist](docs/SUBMISSION_CHECKLIST.md). The report is ready for user review and copying into the required Google Doc. Recording, GitHub publication and submission remain pending.
 
 ```sh
 python -m pytest -q

@@ -24,3 +24,6 @@ __pycache__/
 .idea/
 .vscode/
 *.log
+
+# Personal demo script stays local.
+/docs/DEMO.md

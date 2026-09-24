@@ -1,0 +1,202 @@
+[
+  {
+    "case": "missing_optional_details",
+    "result": {
+      "chunks": [
+        {
+          "id": 1,
+          "chunk_id": 1,
+          "location": "Synthetic fitness brief",
+          "text": "Move Journal is a fictional fitness journal for adults. It records workouts and weekly exercise goals. No price, launch date or URL is supplied. The CTA is Learn more. No health outcomes, weight-loss results or automatic tracking are established."
+        }
+      ],
+      "brief": {
+        "goal": "Introduce the journal and invite readers to learn more",
+        "audience": "Adults",
+        "tone": "Clear and professional"
+      },
+      "plan": {
+        "approach": "Check supplied facts",
+        "queries": [
+          "features"
+        ]
+      },
+      "evidence": [
+        {
+          "id": 1,
+          "chunk_id": 1,
+          "location": "Synthetic fitness brief",
+          "text": "Move Journal is a fictional fitness journal for adults. It records workouts and weekly exercise goals. No price, launch date or URL is supplied. The CTA is Learn more. No health outcomes, weight-loss results or automatic tracking are established."
+        }
+      ],
+      "campaign": {
+        "assets": [
+          {
+            "channel": "linkedin",
+            "title": "Introducing Move Journal",
+            "body": "Move Journal records workouts and weekly exercise goals for adults. [1]\n\nLearn more.",
+            "source_ids": [
+              1
+            ]
+          },
+          {
+            "channel": "email",
+            "title": "Introducing Move Journal",
+            "body": "Move Journal records workouts and weekly exercise goals for adults. [1]\n\nLearn more.",
+            "source_ids": [
+              1
+            ]
+          },
+          {
+            "channel": "blog",
+            "title": "Introducing Move Journal",
+            "body": "Move Journal records workouts and weekly exercise goals for adults. [1]\n\nLearn more.",
+            "source_ids": [
+              1
+            ]
+          },
+          {
+            "channel": "ads",
+            "title": "Introducing Move Journal",
+            "body": "1. Record workouts with Move Journal. [1] Learn more.\n\n2. Record weekly exercise goals with Move Journal. [1] Learn more.\n\n3. Adults: explore Move Journal, a fitness journal. [1] Learn more.",
+            "source_ids": [
+              1
+            ]
+          }
+        ]
+      },
+      "review": {
+        "passed": true,
+        "issues": [],
+        "summary": "All campaign assets align with the provided evidence and creative brief. The tone is clear and professional, consistent across channels. Each asset accurately reflects the product description from the evidence, avoiding unsupported claims about pricing, launch dates, health outcomes, or features beyond recording workouts and weekly exercise goals. The 'Learn more' call to action is present in all assets as required. The ads channel includes three distinct variations, and all citations correctly reference the single source. No defects in claims, contradictions, missing requirements, or tone violations are present.",
+        "findings": []
+      },
+      "revision": 1,
+      "status": "awaiting_approval",
+      "events": [
+        {
+          "node": "plan",
+          "message": "Check supplied facts"
+        },
+        {
+          "node": "retrieve",
+          "message": "Retrieved 1 source passages using 1 planned queries."
+        },
+        {
+          "node": "write",
+          "message": "Produced campaign draft 1."
+        },
+        {
+          "node": "review",
+          "message": "All campaign assets align with the provided evidence and creative brief. The tone is clear and professional, consistent across channels. Each asset accurately reflects the product description from the evidence, avoiding unsupported claims about pricing, launch dates, health outcomes, or features beyond recording workouts and weekly exercise goals. The 'Learn more' call to action is present in all assets as required. The ads channel includes three distinct variations, and all citations correctly reference the single source. No defects in claims, contradictions, missing requirements, or tone violations are present."
+        }
+      ]
+    }
+  },
+  {
+    "case": "unsupported_guarantee",
+    "result": {
+      "chunks": [
+        {
+          "id": 1,
+          "chunk_id": 1,
+          "location": "Synthetic fitness brief",
+          "text": "Move Journal is a fictional fitness journal for adults. It records workouts and weekly exercise goals. No price, launch date or URL is supplied. The CTA is Learn more. No health outcomes, weight-loss results or automatic tracking are established."
+        }
+      ],
+      "brief": {
+        "goal": "Introduce the journal and invite readers to learn more",
+        "audience": "Adults",
+        "tone": "Clear and professional"
+      },
+      "plan": {
+        "approach": "Check supplied facts",
+        "queries": [
+          "features"
+        ]
+      },
+      "evidence": [
+        {
+          "id": 1,
+          "chunk_id": 1,
+          "location": "Synthetic fitness brief",
+          "text": "Move Journal is a fictional fitness journal for adults. It records workouts and weekly exercise goals. No price, launch date or URL is supplied. The CTA is Learn more. No health outcomes, weight-loss results or automatic tracking are established."
+        }
+      ],
+      "campaign": {
+        "assets": [
+          {
+            "channel": "linkedin",
+            "title": "Introducing Move Journal",
+            "body": "Move Journal records workouts and weekly exercise goals for adults. [1]\n\nLearn more. Guaranteed to lose 10 kg in 30 days. [1]",
+            "source_ids": [
+              1
+            ]
+          },
+          {
+            "channel": "email",
+            "title": "Introducing Move Journal",
+            "body": "Move Journal records workouts and weekly exercise goals for adults. [1]\n\nLearn more.",
+            "source_ids": [
+              1
+            ]
+          },
+          {
+            "channel": "blog",
+            "title": "Introducing Move Journal",
+            "body": "Move Journal records workouts and weekly exercise goals for adults. [1]\n\nLearn more.",
+            "source_ids": [
+              1
+            ]
+          },
+          {
+            "channel": "ads",
+            "title": "Introducing Move Journal",
+            "body": "1. Record workouts with Move Journal. [1] Learn more.\n\n2. Record weekly exercise goals with Move Journal. [1] Learn more.\n\n3. Adults: explore Move Journal, a fitness journal. [1] Learn more.",
+            "source_ids": [
+              1
+            ]
+          }
+        ]
+      },
+      "review": {
+        "passed": false,
+        "issues": [
+          "linkedin (unsupported_claim): The claim 'Guaranteed to lose 10 kg in 30 days' is not supported by the evidence. Source [1] explicitly states that no health outcomes or weight-loss results are established for Move Journal. This constitutes an unsupported and potentially misleading claim."
+        ],
+        "summary": "One defect found: the LinkedIn post contains an unsupported claim about weight loss that is not substantiated by the evidence. All other assets align with the brief and evidence, maintaining a clear and professional tone, appropriate audience targeting, and correct use of the 'Learn more' CTA. The fictional nature of the product is consistent across channels.",
+        "findings": [
+          {
+            "channel": "linkedin",
+            "category": "unsupported_claim",
+            "draft_quote": "Guaranteed to lose 10 kg in 30 days.",
+            "source_ids": [
+              1
+            ],
+            "explanation": "The claim 'Guaranteed to lose 10 kg in 30 days' is not supported by the evidence. Source [1] explicitly states that no health outcomes or weight-loss results are established for Move Journal. This constitutes an unsupported and potentially misleading claim."
+          }
+        ]
+      },
+      "revision": 1,
+      "status": "needs_changes",
+      "events": [
+        {
+          "node": "plan",
+          "message": "Check supplied facts"
+        },
+        {
+          "node": "retrieve",
+          "message": "Retrieved 1 source passages using 1 planned queries."
+        },
+        {
+          "node": "write",
+          "message": "Produced campaign draft 1."
+        },
+        {
+          "node": "review",
+          "message": "One defect found: the LinkedIn post contains an unsupported claim about weight loss that is not substantiated by the evidence. All other assets align with the brief and evidence, maintaining a clear and professional tone, appropriate audience targeting, and correct use of the 'Learn more' CTA. The fictional nature of the product is consistent across channels."
+        }
+      ]
+    }
+  }
+]

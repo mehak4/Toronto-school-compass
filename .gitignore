@@ -28,16 +28,3 @@ __pycache__/
 # Personal demo script stays local.
 /docs/DEMO.md
 
-# Private document-agent inputs and generated artifacts.
-/document_agent/outputs/
-/document_agent/inputs/
-
-# Private GTM uploads, generated output and local run state.
-/gtm_agent/outputs/
-/gtm_agent/inputs/
-/gtm_agent/.streamlit/secrets.toml
-
-# Local GTM planning, recording and submission notes.
-/gtm_agent/PROGRESS.md
-/gtm_agent/DEMO_OUTLINE.md
-/gtm_agent/WEEK3_REPORT.md

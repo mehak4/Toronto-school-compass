@@ -1,0 +1,8 @@
+{
+  "model_env": "CHAT_MODEL",
+  "base_url_env": "MODEL_BASE_URL",
+  "api_key_env": "MODEL_API_KEY",
+  "tool_mode": "native",
+  "max_steps": 30,
+  "chunk_chars": 6000
+}

@@ -74,3 +74,7 @@ Addresses submitted in the lookup form go to TDSB and remain in the active app s
 | `fraser.py`, `scripts/import_fraser.py` | Rating matching and reproducible PDF import |
 | `evaluate.py`, `tests/` | Saved live evaluations and automated checks |
 | `data/`, `docs/` | Source records, question sets and submission documentation |
+
+## Document action agent
+
+The separate [document-agent project](document_agent/README.md) accepts PDF/Word files and extracts structured action items or requirements through a LangGraph tool loop with persistent state and human approval before final export. Start with `python -m document_agent.main --file /path/to/document.docx --ingest-only`; its dependencies and usage are documented separately.
